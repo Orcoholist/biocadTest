@@ -122,7 +122,7 @@ export default function App() {
 
         <Paper elevation={3} className="form-container">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <Box sx={{ display: 'flex', flexDirection: 'row', gap: 2, mb: 2 }}>
+            <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: 2, mb: 2 }}>
               <Box sx={{ flex: '1 1 auto' }}>
                 <Controller
                   name="seq1"
@@ -173,7 +173,7 @@ export default function App() {
               </Box>
             </Box>
 
-            <Box sx={{ display: 'flex', flexDirection: 'row', gap: 2, mb: 2 }}>
+            <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: 2, mb: 2 }}>
               <Box sx={{ flex: '1 1 auto' }}>
                 <Controller
                   name="seq2"
