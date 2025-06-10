@@ -1,0 +1,23 @@
+.app-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.result-container {
+  padding: 1.5rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 355px) {
+  .app-title {
+    font-size: 1rem !important;
+  }
+}

@@ -1,0 +1,46 @@
+.alignment-container {
+  font-family: monospace;
+  line-height: 1.5;
+  word-break: break-word;
+  width: 100%;
+}
+
+.alignment-row {
+  margin-bottom: 1.5rem;
+}
+
+.sequence-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 0.25rem;
+}
+
+.amino-acid {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 1px;
+  user-select: text;
+}
+
+.copy-hint {
+  display: block;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 600px) {
+  .amino-acid {
+    width: 4rem;
+    height: 4rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .copy-hint {
+    font-size: 12px;
+  }
+}
